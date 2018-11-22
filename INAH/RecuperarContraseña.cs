@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace INAH
 {
-    public partial class Inicio_Sesion : Form
+    public partial class RecuperarContraseña : Form
     {
-        public Inicio_Sesion()
+        public RecuperarContraseña()
         {
             InitializeComponent();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            
         }
     }
 }

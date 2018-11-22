@@ -67,6 +67,12 @@
     <Compile Include="Nuevo Usuario.Designer.cs">
       <DependentUpon>Nuevo Usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="RecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuperarContraseña.Designer.cs">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegVentanilla.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Nuevo Usuario.resx">
       <DependentUpon>Nuevo Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecuperarContraseña.resx">
+      <DependentUpon>RecuperarContraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegVentanilla.resx">
       <DependentUpon>RegVentanilla.cs</DependentUpon>
