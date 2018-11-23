@@ -73,7 +73,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(170, 13);
+            this.label1.Location = new System.Drawing.Point(56, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(301, 31);
             this.label1.TabIndex = 0;
@@ -280,7 +280,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(396, 425);
+            this.button1.Location = new System.Drawing.Point(18, 425);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 31;
@@ -289,7 +289,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(539, 425);
+            this.button2.Location = new System.Drawing.Point(429, 425);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 32;
@@ -300,7 +300,7 @@
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Location = new System.Drawing.Point(429, 58);
+            this.panel1.Location = new System.Drawing.Point(363, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(157, 54);
             this.panel1.TabIndex = 33;
@@ -309,6 +309,7 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.panel1);
             this.panel2.Location = new System.Drawing.Point(0, -2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(630, 50);
@@ -349,7 +350,7 @@
             // 
             this.panel3.Controls.Add(this.radioButton1);
             this.panel3.Controls.Add(this.radioButton2);
-            this.panel3.Location = new System.Drawing.Point(489, 171);
+            this.panel3.Location = new System.Drawing.Point(429, 188);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(63, 64);
             this.panel3.TabIndex = 37;
@@ -362,7 +363,6 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label6);
@@ -383,9 +383,9 @@
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Location = new System.Drawing.Point(0, 54);
+            this.groupBox1.Location = new System.Drawing.Point(12, 58);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(618, 351);
+            this.groupBox1.Size = new System.Drawing.Size(506, 351);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nueva solicitud";
@@ -395,7 +395,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 460);
+            this.ClientSize = new System.Drawing.Size(516, 460);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button2);

@@ -22,5 +22,10 @@ namespace INAH
             RecuperarContraseña login = new RecuperarContraseña();
             login.Show();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
