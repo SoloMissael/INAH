@@ -46,9 +46,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -226,15 +226,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos personales del trabajador";
             // 
-            // button3
+            // textBox7
             // 
-            this.button3.ForeColor = System.Drawing.Color.Lime;
-            this.button3.Location = new System.Drawing.Point(12, 289);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Nuevo";
-            this.button3.UseVisualStyleBackColor = true;
+            this.textBox7.Location = new System.Drawing.Point(156, 200);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(34, 20);
+            this.textBox7.TabIndex = 17;
+            this.textBox7.Text = "1234";
+            this.textBox7.Visible = false;
             // 
             // label9
             // 
@@ -244,14 +243,17 @@
             this.label9.Size = new System.Drawing.Size(61, 13);
             this.label9.TabIndex = 16;
             this.label9.Text = "Contraseña";
+            this.label9.Visible = false;
             // 
-            // textBox7
+            // button3
             // 
-            this.textBox7.Location = new System.Drawing.Point(156, 200);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(34, 20);
-            this.textBox7.TabIndex = 17;
-            this.textBox7.Text = "1234";
+            this.button3.ForeColor = System.Drawing.Color.Lime;
+            this.button3.Location = new System.Drawing.Point(12, 289);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 22;
+            this.button3.Text = "Nuevo";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Nuevo_Usuario
             // 

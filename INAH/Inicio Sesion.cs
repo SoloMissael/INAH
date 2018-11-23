@@ -18,7 +18,9 @@ namespace INAH
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            this.Hide();
+            RecuperarContraseña login = new RecuperarContraseña();
+            login.Show();
         }
     }
 }
