@@ -28,10 +28,17 @@ namespace INAH
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            Ventanilla login = new Ventanilla();
+            login.Show();
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }

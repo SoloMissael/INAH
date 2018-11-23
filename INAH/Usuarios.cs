@@ -18,7 +18,9 @@ namespace INAH
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Nuevo_Usuario login = new Nuevo_Usuario();
+            login.Show();
         }
     }
 }
