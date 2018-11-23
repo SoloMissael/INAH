@@ -13,7 +13,7 @@ namespace INAH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegVentanilla());
+            Application.Run(new Inicio_Sesion());
         }
     }
 }
